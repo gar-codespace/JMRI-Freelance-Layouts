@@ -1,0 +1,249 @@
+{
+  "buildDate": "05/24/2023-23:57:06", 
+  "carAAR": [
+    "XM"
+  ], 
+  "carKernel": [
+    ""
+  ], 
+  "carLoads": {
+    "XM": [
+      "Load"
+    ]
+  }, 
+  "divisions": [
+    ""
+  ], 
+  "industries": {
+    "1": {
+      "a-location": "TS", 
+      "b-track": "B", 
+      "c-schedule": {
+        "B": [
+          [
+            "XM", 
+            "R", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "10": {
+      "a-location": "TS", 
+      "b-track": "E", 
+      "c-schedule": {
+        "E": [
+          [
+            "XM", 
+            "R", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "11": {
+      "a-location": "TS", 
+      "b-track": "F", 
+      "c-schedule": {
+        "F": [
+          [
+            "XM", 
+            "R", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "2": {
+      "a-location": "TS", 
+      "b-track": "A", 
+      "c-schedule": {
+        "A": [
+          [
+            "XM", 
+            "R", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "3": {
+      "a-location": "TS", 
+      "b-track": "C", 
+      "c-schedule": {
+        "C": [
+          [
+            "XM", 
+            "R", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "9": {
+      "a-location": "TS", 
+      "b-track": "D", 
+      "c-schedule": {
+        "D": [
+          [
+            "XM", 
+            "R", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }
+  }, 
+  "layoutName": "Time Saver", 
+  "locales": {
+    "00": {
+      "capacity": "100", 
+      "label": "~", 
+      "location": "Unreported", 
+      "track": "~", 
+      "type": "class yard"
+    }, 
+    "10": {
+      "capacity": "2", 
+      "label": "E", 
+      "location": "TS", 
+      "track": "E", 
+      "type": "industry"
+    }, 
+    "2": {
+      "capacity": "2", 
+      "label": "B", 
+      "location": "TS", 
+      "track": "B", 
+      "type": "industry"
+    }, 
+    "6": {
+      "capacity": "1", 
+      "label": "D", 
+      "location": "TS", 
+      "track": "D", 
+      "type": "industry"
+    }, 
+    "7": {
+      "capacity": "2", 
+      "label": "C", 
+      "location": "TS", 
+      "track": "C", 
+      "type": "industry"
+    }, 
+    "8": {
+      "capacity": "2", 
+      "label": "A", 
+      "location": "TS", 
+      "track": "A", 
+      "type": "industry"
+    }, 
+    "9": {
+      "capacity": "2", 
+      "label": "F", 
+      "location": "TS", 
+      "track": "F", 
+      "type": "industry"
+    }
+  }, 
+  "location": "", 
+  "locationIds": [
+    "00", 
+    "2", 
+    "6", 
+    "7", 
+    "8", 
+    "9", 
+    "10"
+  ], 
+  "locations": [
+    "Unreported", 
+    "TS"
+  ], 
+  "locoConsists": [
+    ""
+  ], 
+  "locoModels": [
+    [
+      "0-4-0t", 
+      "ES"
+    ]
+  ], 
+  "locoTypes": [
+    "ES"
+  ], 
+  "operatingRoad": "Time Saver", 
+  "roads": [
+    "ES", 
+    "XM"
+  ], 
+  "scale": "", 
+  "territory": "", 
+  "year": ""
+}

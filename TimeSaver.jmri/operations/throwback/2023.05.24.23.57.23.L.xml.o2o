@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-locations.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-locations.dtd">
+<operations-config>
+  <!--Written by JMRI version 5.2+R760b98537f on Wed May 24 23:57:23 PDT 2023-->
+  <divisions>
+    <division id="1" name="" comment="" />
+    <division id="2" name="Unknown" comment="" />
+  </divisions>
+  <locations>
+    <location id="1" name="Unreported" divisionId="2" ops="1" dir="15" switchList="true" comment="" switchListComment="">
+      <types>
+        <carType name="XM" />
+        <locoType name="EQDK" />
+        <locoType name="ES" />
+      </types>
+      <track id="1s1" name="~" trackType="Yard" dir="15" length="1000" moves="0">
+        <types>
+          <carType name="XM" />
+          <locoType name="EQDK" />
+          <locoType name="ES" />
+        </types>
+      </track>
+    </location>
+    <location id="2" name="TS" divisionId="1" ops="1" dir="15" switchList="true" comment="" switchListComment="">
+      <types>
+        <carType name="XM" />
+        <locoType name="EQDK" />
+        <locoType name="ES" />
+      </types>
+      <track id="2s1" name="B" trackType="Spur" dir="15" length="88" moves="5" schedule="B" scheduleId="17" itemId="17c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+        <types>
+          <carType name="XM" />
+        </types>
+      </track>
+      <track id="2s2" name="D" trackType="Spur" dir="15" length="44" moves="4" schedule="D" scheduleId="20" itemId="20c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+        <types>
+          <carType name="XM" />
+        </types>
+      </track>
+      <track id="2s3" name="C" trackType="Spur" dir="15" length="88" moves="5" schedule="C" scheduleId="19" itemId="19c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+        <types>
+          <carType name="XM" />
+        </types>
+      </track>
+      <track id="2s4" name="Y" trackType="Spur" dir="15" length="88" moves="2" schedule="Y" scheduleId="16" itemId="16c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+        <types>
+          <carType name="XM" />
+        </types>
+      </track>
+      <track id="2s5" name="E" trackType="Spur" dir="15" length="88" moves="4" schedule="E" scheduleId="21" itemId="21c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+        <types>
+          <carType name="XM" />
+        </types>
+      </track>
+      <track id="2s6" name="A" trackType="Spur" dir="15" length="88" moves="5" schedule="A" scheduleId="18" itemId="18c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+        <types>
+          <carType name="XM" />
+        </types>
+      </track>
+    </location>
+  </locations>
+  <schedules>
+    <schedule id="16" name="Y" comment="">
+      <item id="16c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Load" ship="Load" comment="" hits="3" />
+    </schedule>
+    <schedule id="17" name="B" comment="">
+      <item id="17c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Load" ship="Load" comment="" hits="6" />
+    </schedule>
+    <schedule id="18" name="A" comment="">
+      <item id="18c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Load" ship="Load" comment="" hits="6" />
+    </schedule>
+    <schedule id="19" name="C" comment="">
+      <item id="19c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Load" ship="Load" comment="" hits="5" />
+    </schedule>
+    <schedule id="20" name="D" comment="">
+      <item id="20c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Load" ship="Load" comment="" hits="5" />
+    </schedule>
+    <schedule id="21" name="E" comment="">
+      <item id="21c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Load" ship="Load" comment="" hits="5" />
+    </schedule>
+  </schedules>
+</operations-config>

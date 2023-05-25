@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
+<operations-config>
+  <!--Written by JMRI version 5.2+R760b98537f on Wed May 24 23:57:23 PDT 2023-->
+  <roads>
+    <road name="B" />
+    <road name="EDF" />
+    <road name="ES" />
+    <road name="XM" />
+  </roads>
+  <types>
+    <type name="XM" />
+  </types>
+  <colors>
+    <color name="Black" />
+    <color name="Blue" />
+    <color name="Brown" />
+    <color name="Gray" />
+    <color name="Yellow" />
+    <color name="Green" />
+    <color name="Orange" />
+    <color name="Purple" />
+    <color name="Red" />
+    <color name="Silver" />
+    <color name="Tuscan" />
+    <color name="White" />
+  </colors>
+  <lengths>
+    <length value="32" />
+    <length value="34" />
+    <length value="36" />
+    <length value="38" />
+    <length value="40" />
+    <length value="42" />
+    <length value="50" />
+    <length value="51" />
+    <length value="52" />
+    <length value="54" />
+    <length value="60" />
+    <length value="70" />
+  </lengths>
+  <owners>
+    <owner name="" />
+  </owners>
+  <loads>
+    <defaults empty="E" load="L" />
+    <load type="XM">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+    </load>
+  </loads>
+  <newKernels />
+  <options />
+  <cars>
+    <car id="XM1" roadName="XM" roadNumber="1" type="XM" length="40" color="Red" weight="2" weightTons="40" locationId="2" secLocationId="2s1" lastRouteId="3" moves="3" date="05/24/2023 23:49:02" selected="false" load="Load" />
+    <car id="XM2" roadName="XM" roadNumber="2" type="XM" length="40" color="Red" weight="2" weightTons="40" locationId="2" routeLocationId="3r1" secLocationId="2s5" destinationId="2" routeDestinationId="3r1" secDestinationId="2s4" lastRouteId="3" moves="3" date="05/24/2023 23:49:02" selected="false" train="5 Cars" trainId="3" load="Load" scheduleId="16c1" />
+    <car id="XM3" roadName="XM" roadNumber="3" type="XM" length="40" color="Red" weight="2" weightTons="40" locationId="2" routeLocationId="3r1" secLocationId="2s4" destinationId="2" routeDestinationId="3r1" secDestinationId="2s1" lastRouteId="3" moves="3" date="05/24/2023 23:49:02" selected="false" train="5 Cars" trainId="3" load="Load" scheduleId="17c1" />
+    <car id="XM4" roadName="XM" roadNumber="4" type="XM" length="40" color="Red" weight="2" weightTons="40" locationId="2" routeLocationId="3r1" secLocationId="2s4" destinationId="2" routeDestinationId="3r1" secDestinationId="2s6" lastRouteId="3" moves="3" date="05/24/2023 23:49:02" selected="false" train="5 Cars" trainId="3" load="Load" scheduleId="18c1" />
+    <car id="XM5" roadName="XM" roadNumber="5" type="XM" length="40" color="Red" weight="2" weightTons="40" locationId="2" routeLocationId="3r1" secLocationId="2s6" destinationId="2" routeDestinationId="3r1" secDestinationId="2s5" lastRouteId="3" moves="3" date="05/24/2023 23:49:02" selected="false" train="5 Cars" trainId="3" load="Load" scheduleId="21c1" />
+    <car id="XM6" roadName="XM" roadNumber="6" type="XM" length="40" color="Red" weight="2" weightTons="40" locationId="2" routeLocationId="3r1" secLocationId="2s3" destinationId="2" routeDestinationId="3r1" secDestinationId="2s2" lastRouteId="2" moves="3" date="05/24/2023 23:48:23" selected="false" train="5 Cars" trainId="3" load="Load" scheduleId="20c1" />
+  </cars>
+</operations-config>

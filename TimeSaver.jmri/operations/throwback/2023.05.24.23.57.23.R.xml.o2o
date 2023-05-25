@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-routes.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-routes.dtd">
+<operations-config>
+  <!--Written by JMRI version 5.2+R760b98537f on Wed May 24 23:47:14 PDT 2023-->
+  <routes>
+    <route id="1" name="3 Cars" comment="">
+      <location id="1r1" name="TS" locationId="2" sequenceId="1" trainDirection="1" maxTrainLength="1000" grade="0.0" maxCarMoves="3" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="1" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+    </route>
+    <route id="2" name="4 Cars" comment="">
+      <location id="2r1" name="TS" locationId="2" sequenceId="1" trainDirection="1" maxTrainLength="1000" grade="0.0" maxCarMoves="4" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+    </route>
+    <route id="3" name="5 Cars" comment="">
+      <location id="3r1" name="TS" locationId="2" sequenceId="1" trainDirection="1" maxTrainLength="1000" grade="0.0" maxCarMoves="5" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
+    </route>
+  </routes>
+</operations-config>
