@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Thu May 25 01:15:26 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Sat Jun 17 09:58:38 PDT 2023-->
   <roads>
     <road name="B" />
     <road name="EDF" />
@@ -17,7 +17,6 @@
     <color name="Blue" />
     <color name="Brown" />
     <color name="Gray" />
-    <color name="Yellow" />
     <color name="Green" />
     <color name="Orange" />
     <color name="Purple" />
@@ -25,6 +24,7 @@
     <color name="Silver" />
     <color name="Tuscan" />
     <color name="White" />
+    <color name="Yellow" />
   </colors>
   <lengths>
     <length value="32" />
