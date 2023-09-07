@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-locations.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-locations.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Sat Jun 17 09:58:38 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Thu Sep 07 12:54:28 PDT 2023-->
   <divisions>
     <division id="1" name="" comment="" />
     <division id="2" name="Unknown" comment="" />
@@ -33,12 +33,12 @@
           <carType name="XM" />
         </types>
       </track>
-      <track id="2s2" name="D" trackType="Spur" dir="15" length="44" moves="6" schedule="D" scheduleId="26" itemId="26c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s2" name="D" trackType="Spur" dir="15" length="44" moves="7" schedule="D" scheduleId="26" itemId="26c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XM" />
         </types>
       </track>
-      <track id="2s3" name="C" trackType="Spur" dir="15" length="88" moves="6" schedule="C" scheduleId="25" itemId="25c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s3" name="C" trackType="Spur" dir="15" length="88" moves="7" schedule="C" scheduleId="25" itemId="25c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XM" />
         </types>
@@ -53,7 +53,7 @@
           <carType name="XM" />
         </types>
       </track>
-      <track id="2s6" name="E" trackType="Spur" dir="15" length="88" moves="6" schedule="E" scheduleId="27" itemId="27c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s6" name="E" trackType="Spur" dir="15" length="88" moves="7" schedule="E" scheduleId="27" itemId="27c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XM" />
         </types>
@@ -71,13 +71,13 @@
       <item id="24c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Load" ship="Load" comment="" hits="2" />
     </schedule>
     <schedule id="25" name="C" comment="">
-      <item id="25c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Load" ship="Load" comment="" hits="6" />
+      <item id="25c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Load" ship="Load" comment="" hits="7" />
     </schedule>
     <schedule id="26" name="D" comment="">
-      <item id="26c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Load" ship="Load" comment="" hits="6" />
+      <item id="26c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Load" ship="Load" comment="" hits="7" />
     </schedule>
     <schedule id="27" name="E" comment="">
-      <item id="27c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Load" ship="Load" comment="" hits="6" />
+      <item id="27c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Load" ship="Load" comment="" hits="7" />
     </schedule>
   </schedules>
 </operations-config>
